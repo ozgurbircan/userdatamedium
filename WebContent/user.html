@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Üyelik Formu</title>
+<style type="text/css">
+.registerform {
+   display: table;
+   border-collapse: collapse;
+} 
+.registerform .data-row {
+   display: table-row;
+}
+.registerform .row {
+   display: table-cell;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<form name="RegisterForm" action="userData" method="get">
+
+
+<div class="registerform">
+	<div class="data-row">
+		<div class="row">Ad</div>
+		<div class="row"><input type="text" name="name"></<input></div>
+	</div>
+	<div class="data-row">
+		<div class="row">Soyad</div>
+		<div class="row"><input type="text" name="surName"></<input></div>	
+		</div>
+	<div class="data-row">
+		<div class="row">Mail Adresi</div>
+		<div class="row"><input type="text" name="mailAdress"></<input></div>
+			</div>
+	<div class="data-row">
+		<div class="row">Kullanıcı Adı</div>
+		<div class="row"><input type="text" name="userName"></<input></div>
+			</div>
+	<div class="data-row">
+		<div class="row">Şifre</div>
+		<div class="row"><input type="text" name="userPassword"></<input></div>	
+		</div>
+		<input type="submit" value="Gonder"></input>
+</div>
+
+
+</form>
+
+</body>
+</html>
